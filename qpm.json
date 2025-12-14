@@ -42,13 +42,13 @@
         "pwsh ./scripts/pull-tombstone.ps1 -analyze"
       ]
     },
-    "ndk": "^27.3.13750724",
     "qmodIncludeDirs": [
       "./build",
       "./extern/libs"
     ],
     "qmodIncludeFiles": [],
-    "qmodOutput": "./PlayerDataKeeper.qmod"
+    "qmodOutput": "./PlayerDataKeeper.qmod",
+    "ndk": ">=27"
   },
   "dependencies": [
     {
