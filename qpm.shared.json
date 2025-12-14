@@ -74,7 +74,7 @@
       },
       {
         "id": "config-utils",
-        "versionRange": "^2.1.0",
+        "versionRange": "^2.0.4",
         "additionalData": {}
       },
       {
@@ -219,16 +219,19 @@
     },
     {
       "dependency": {
-        "id": "scotland2",
-        "versionRange": "=0.1.6",
+        "id": "libil2cpp",
+        "versionRange": "=0.5.0",
         "additionalData": {
-          "soLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.6/libsl2.so",
-          "debugSoLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.6/debug_libsl2.so",
-          "overrideSoName": "libsl2.so",
-          "branchName": "version/v0_1_6"
+          "headersOnly": true,
+          "compileOptions": {
+            "systemIncludes": [
+              "il2cpp/external/baselib/Include",
+              "il2cpp/external/baselib/Platforms/Android/Include"
+            ]
+          }
         }
       },
-      "version": "0.1.6"
+      "version": "0.5.0"
     },
     {
       "dependency": {
@@ -246,19 +249,16 @@
     },
     {
       "dependency": {
-        "id": "libil2cpp",
-        "versionRange": "=0.5.0",
+        "id": "scotland2",
+        "versionRange": "=0.1.7",
         "additionalData": {
-          "headersOnly": true,
-          "compileOptions": {
-            "systemIncludes": [
-              "il2cpp/external/baselib/Include",
-              "il2cpp/external/baselib/Platforms/Android/Include"
-            ]
-          }
+          "soLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.7/libsl2.so",
+          "debugSoLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.7/debug_libsl2.so",
+          "overrideSoName": "libsl2.so",
+          "branchName": "version/v0_1_7"
         }
       },
-      "version": "0.5.0"
+      "version": "0.1.7"
     }
   ]
 }
