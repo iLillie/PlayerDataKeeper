@@ -48,7 +48,7 @@
     ],
     "qmodIncludeFiles": [],
     "qmodOutput": "./PlayerDataKeeper.qmod",
-    "ndk": ">=27"
+    "ndk": "^27"
   },
   "dependencies": [
     {
